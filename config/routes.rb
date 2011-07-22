@@ -1,8 +1,9 @@
 Personal::Application.routes.draw do
 
   match '/home', :to => "pages#home"
+  match '/about', :to => "pages#about"
+  match '/privacy', :to => "pages#privacy"
   #match '/blog', :to => "pages#blog"
-  match "/blog" => redirect("http://blog.dustinrodrigues.com")#, :as => :blog
   match '/faq', :to => "pages#faq"
   #match '/signin', :to => "pages#signin"
 

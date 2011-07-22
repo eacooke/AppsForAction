@@ -3,8 +3,12 @@ class PagesController < ApplicationController
     @title = "Home"
   end
 
-  def blog
-    @title = "Blog"
+  def about
+    @title = "About"
+  end
+
+  def privacy
+    @title = "Privacy"
   end
 
   def faq

@@ -16,7 +16,7 @@ module ApplicationHelper
   end
 
   def title
-    base_title = "Dustin's Site"
+    base_title = "Apps for Action"
     @title.nil? ? base_title : "#{base_title} | #{@title}"
   end
 

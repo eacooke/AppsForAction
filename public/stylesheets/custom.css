@@ -1,18 +1,22 @@
 body {
-  color: black;
-  background-color: #376896;
+  color: white;
+  background-color: black;
   font-size: 14px;
 }
 
+h1 {
+  color: white;
+}
+
 #top {
-  background-color: #254766;
+  background-color: green;
 }
 
 header {
   color: white;
   height: 54px;
   font-size: 36px;
-  background-color: #254766;
+  background-color: green;
   padding-left: .5em;
 }
 
@@ -28,7 +32,7 @@ header a, header a:hover {
 }
 
 #nav a {
-  color: #abc;
+  color: white;
   text-decoration: none;
   font-size: 18px;
 }
@@ -39,9 +43,15 @@ header a, header a:hover {
   border-radius: 10px;
 }
 
-#content {
-  background-color: #eec;
-  padding: 1em;
-  min-height: 360px;
+footer {
+  float: right;
 }
 
+#content {
+  padding: 1em;
+  min-height: 540px;
+}
+
+img {
+  float: left;
+}
