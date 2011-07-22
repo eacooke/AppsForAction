@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %>
+    <%= raw clicky %>
+    <%= raw google_analytics_js %>
+  </head>
+  <body>
+    <div id="top">
+    <div class="container">
+      <%= render 'layouts/header' %>
+    </div>
+    </div>
+    <div class="container">
+      <div id="content">
+      <%= yield %>
+      </div>
+      <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
