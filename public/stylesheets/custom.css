@@ -25,6 +25,8 @@ header a, header a:hover {
   color: #1921b1;
   color: white;
   text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+
 }
 
 footer a, footer a:hover {
