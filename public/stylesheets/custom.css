@@ -1,7 +1,10 @@
 body {
   color: white;
   background-color: #839E85;
+  background-color: #7E8A7D;
   font-size: 14px;
+  font-family: 'Varela', sans-serif;
+
 }
 
 h1 {
@@ -15,7 +18,7 @@ h1 {
 
 header {
   color: white;
-  height: 7l2px;
+  height: 72px;
   font-size: 48px;
   /*background-color: #42C765;*/
   padding-left: .5em;
@@ -23,9 +26,13 @@ header {
 }
 header a, header a:hover {
   color: #1921b1;
+  color: #E8DCDF;
   color: white;
   text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
+
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Varela', sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 
