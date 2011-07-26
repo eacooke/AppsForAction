@@ -1,7 +1,62 @@
-<div id="main_left">
+<div id="main_left" class="span-12">
+<center>
 <%= image_tag "android_transparent.png", :size => "240x473"%>
+</center>
 </div>
-<div id="main_right">
-Put blurb about what Apps for Action is all about here.
+<div id="main_right" class="span-11 last">
+<center> 
+  <div id="container"></div>
+  <br />
+  </center>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-text="Check out this app!" data-count="horizontal" data-via="appsforaction">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+         <iframe src="http://www.facebook.com/plugins/like.php?href=appsforaction.com"
+                 scrolling="no" frameborder="0"
+                         style="border:none; width:450px; height:80px"></iframe>
+
+
+
 </div>
 <!--:size => "200x390"%> -->
+<script>
+$(document).ready(function(){
+    LR.lrInstance = new LrInstance('container',{
+
+        tagLine: "  <i>Every Download Makes a Difference</i>",
+        description: "Want an easy way to help others on your smartphone with a few seconds of your time? Our app allows you to make a difference by raising money for your favorite charity each time you download sponsored free apps and play selected mobile games.",
+        refCodeUrl: "http://appsforaction.com/?ref=",
+        lrDomain: "appsforaction.com",
+        apiKey: "159cb2d20e4d48f55224c1c253ebfe7d",
+        inviteList: "Launching soon. Enter your email to join our invite list:"
+    });        
+
+    // Handles events related to signup form, form validations
+    // and submitting the form to the server:
+    LR.signupForm = new SignupForm({
+        secondaryPostLocation: ""
+    });
+
+
+    // Handles rendering the post submit content:
+    LR.postSubmit = new PostSignupForm('pagesubmit',{
+        twitterHandle: "appsforaction",
+        twitterMessage: "Apps for Action is launching soon and I'm one of the first in line! Join me. #launch",
+        newUserHeaderText: "Thanks! Want to get an early invitation?",
+        newUserParagraphText: "Invite at least 3 friends using the link below. The more friends you invite, the sooner you'll get access!<br/><br/>To share with your friends, click 'Recommend', 'Tweet' and 'Invite by Email':",
+        newUserParagraphText3: "Or copy and paste the following link to share wherever you want!",
+        returningUserHeaderText: "Welcome Back!",
+        returningUserParagraphText: "Invite at least 3 friends using the link below. The more friends you invite, the sooner you'll get access!<br/><br/>To share with your friends, click 'Recommend', 'Tweet' and 'Invite by Email':",
+        returningUserParagraphText3: "Or copy and paste the following link to share wherever you want!",
+        statsPreText: "Your live stats: ",
+        footerLinks: "<a href='http://twitter.com/appsforaction'>Follow Us on Twitter</a> | <a href='http://facebook.com/appsforaction'>Like Us on Facebook</a>"
+,showDescription: true,
+showTagLine: true,
+showHeaderText: true,
+showParagraphText: true,
+showStats: true,
+showShareButtons: true,
+showFooterLinks: true    });
+
+
+});
+
+    </script>
