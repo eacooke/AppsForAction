@@ -4,6 +4,8 @@ body {
   background-color: #7E8A7D;
   font-size: 14px;
   font-family: 'Varela', sans-serif;
+    background: url('/images/bg.png') repeat-x;
+
 
 
 }
@@ -20,6 +22,7 @@ h1 {
 header {
   color: white;
   height: 72px;
+  height: 54px;
   font-size: 48px;
   /*
   width: 650px;
@@ -28,7 +31,8 @@ header {
   */
   text-align: center;
 }
-header a, header a:hover {
+#main_right a, #main_right a:hover, header a, header a:hover {
+  font-size: 48px;
   color: #1921b1;
   color: #E8DCDF;
   color: white;
@@ -41,6 +45,7 @@ header a, header a:hover {
 footer a, footer a:hover {
   color: #1921b1;
   color: white;
+  color: black;
   text-decoration: none;
 }
 #nav {
@@ -50,6 +55,7 @@ footer a, footer a:hover {
 
 #footer a {
   color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
 }
@@ -62,6 +68,7 @@ footer a, footer a:hover {
 
 footer {
   text-align: center;
+  color: black;
 }
 
 #content {
