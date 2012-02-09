@@ -1,10 +1,8 @@
 body {
   color: white;
-  background-color: #839E85;
-  background-color: #7E8A7D;
   font-size: 14px;
   font-family: 'Varela', sans-serif;
-    background: url('/images/bg.png') repeat-x;
+  background: url('/images/bg.png') repeat-x;
 
 
 
@@ -24,22 +22,16 @@ header {
   height: 72px;
   height: 54px;
   font-size: 48px;
-  /*
-  width: 650px;
-  background-color: #42C765;
-  padding: 0em 150px;
-  */
   text-align: center;
 }
-#main_right a, #main_right a:hover, header a, header a:hover {
+
+#home_logo a, #home_logo a:hover, header a, header a:hover {
   font-size: 48px;
   color: #1921b1;
   color: #E8DCDF;
   color: white;
-  font-family: 'Lobster', cursive;
+  font-family: 'Arial';
   text-decoration: none;
-  text-shadow: red 0.1em 0.1em 0.2em;
-
 }
 
 footer a, footer a:hover {
@@ -48,6 +40,7 @@ footer a, footer a:hover {
   color: black;
   text-decoration: none;
 }
+
 #nav {
   float: right;
   padding: 0 24px 0 0;
@@ -75,19 +68,6 @@ footer {
   padding: 1em;
   min-height: 540px;
 }
-/*
-#main_left {
-  float: left;
-  padding-left: 40px;
-}
-
-#main_right {
-  float: left;
-  padding-left: 10em;
-  width: 300px;
-
-}
-  */
 
 #about_center {
   align: center;
