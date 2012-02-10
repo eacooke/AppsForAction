@@ -1,14 +1,21 @@
-body {
+
+#home {
   color: white;
   font-size: 14px;
-  font-family: 'Varela', sans-serif;
   font-family: 'Arial';
   background: url('/images/bg.png') repeat-x;
+
 }
 
-h1 {
-  color: white;
+#content {
+  /*font-family: 'Varela', sans-serif;*/
+  font-size: 14px;
+  font-family: 'Arial':
 }
+
+/*h1 {*/
+  /*color: white;*/
+/*}*/
 
 #top {
   /*background-color: #42C765;*/

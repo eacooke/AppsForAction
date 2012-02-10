@@ -14,6 +14,9 @@
 
   </head>
   <body>
+    <%if @title == "Home" %>
+    <div id="home">
+      <% end %>
     <div id="top">
     <div class="container">
       <%= render 'layouts/header' %> 
@@ -26,5 +29,8 @@
       <hr>
       <%= render 'layouts/footer' %>
     </div>
+    <%if @title == "Home" %>
+    </div>
+      <%end %>
   </body>
 </html>
