@@ -1,8 +1,8 @@
 
 #home {
   color: white;
-  font-size: 14px;
-  font-family: 'Arial';
+  /*font-size: 14px;*/
+  /*font-family: 'Arial';*/
   background: url('/images/bg.png') repeat-x;
 
 }
@@ -41,12 +41,6 @@ footer a, footer a:hover {
   padding: 0 24px 0 0;
 }
 
-#footer a {
-  color: white;
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-}
 
 .round {
   -moz-border-radius: 10px;
@@ -79,3 +73,12 @@ h2 {
   margin-top: 10px;
   font-size: 12px;
 }
+
+#footer a {
+  color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Arial';
+}
+
