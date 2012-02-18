@@ -79,3 +79,13 @@ footer {
   text-align: center;
   width: 300px;
 }
+
+h2 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+#note {
+  margin-top: 10px;
+  font-size: 12px;
+}
