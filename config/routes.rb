@@ -9,7 +9,7 @@ Personal::Application.routes.draw do
 
 
   match '*path' => redirect('/')
-  #match '/home' => redirect('/')
+  match '/home' => redirect('/')
   root :to => "pages#home"
 
   # The priority is based upon order of creation:
