@@ -2,7 +2,7 @@ Personal::Application.routes.draw do
 
   match '/home', :to => "pages#home"
   match '/about', :to => "pages#about"
-  #match '/privacy', :to => "pages#privacy"
+  match '/privacy', :to => "pages#privacy"
   #match '/terms', :to => "pages#terms"
   #match '/blog', :to => "pages#blog"
   #match '/faq', :to => "pages#faq"
