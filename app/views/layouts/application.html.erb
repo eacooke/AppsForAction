@@ -15,23 +15,19 @@
 
   </head>
   <body>
-    <%if @title == "Home" %>
-    <div id="home">
-      <% end %>
-    <div id="top">
-    <div class="container">
-      <%= render 'layouts/header' %> 
-    </div>
-    </div>
-    <div class="container">
-      <div id="content">
-      <%= yield %>
+    <div id="<%= @title.downcase %>">
+      <div id="top">
+        <div class="container">
+          <%= render 'layouts/header' %> 
+        </div>
       </div>
-      <hr>
-      <%= render 'layouts/footer' %>
+      <div class="container">
+        <div id="content">
+        <%= yield %>
+        </div>
+        <hr>
+        <%= render 'layouts/footer' %>
+      </div>
     </div>
-    <%if @title == "Home" %>
-    </div>
-      <%end %>
   </body>
 </html>
