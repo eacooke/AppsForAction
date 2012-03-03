@@ -12,11 +12,12 @@ class PagesController < ApplicationController
   end
 
   def terms
-    @title = "Terms"
+    @title = "Terms of use"
   end
 
   def faq
     @title = "FAQ"
   end
+  
 
 end
