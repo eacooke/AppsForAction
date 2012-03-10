@@ -25,11 +25,11 @@ header {
 }
 
 #home_logo a, #home_logo a:hover, header a, header a:hover {
-  font-size: 48px;
+  font-size: 54px;
   color: #1921b1;
   color: #E8DCDF;
   color: white;
-  font-family: 'Arial';
+  font-family: 'helvetica';
   text-decoration: none;
 }
 
