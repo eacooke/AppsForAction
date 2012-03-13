@@ -1,6 +1,6 @@
 <div id="main_left" class="span-12">
 <center>
-<span style="margin-top: 5em;">
+<span style="margin-top: 0em; float:left">
 <%= image_tag "New_Home_ScreenShotLarge.png"%>
 </span>
 </center>
@@ -8,16 +8,28 @@
 <div id="main_right" class="span-11 last">
   <center>  
     <div id="home_logo"><%= link_to image_tag("Title.png"),  home_path %></div>
-     <!--    <div id="home_logo"><%= link_to image_tag("title_b.png", size:"415.8x76.23"),  home_path %></div> -->
+<!--       <div id="home_logo"><%= link_to image_tag("title_b.png", size:"415.8x76.23"),  home_path %></div> -->
 <br>
 <br>
-<div rel="F6K5HM35" class="lrdiscoverwidget" data-logo="off" data-background="off" data-share-url="appsforaction.com" data-css=""></div><script type="text/javascript" src="http://launchrock-ignition.s3.amazonaws.com/ignition.1.1.js"></script>
 
-  <br />
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="www.appsforaction.com" data-text="Check out this app!" data-count="horizontal" data-via="appsforaction">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-              <fb:like></fb:like>
+<div id="outerDiv" style="position: relative; border: 1px solid green; width: 525px; float: right">
 
+<div id="semiTransparentDiv" style="position: absolute; background-color: black; filter:alpha(opacity=45);-moz-opacity:.45;opacity:.45; height: 100%; width: 100%; z-index: 1;"></div>
 
+<div id="contentDiv" style="position: relative; z-index: 2; padding: 10px; color: white; text-align:left; font-size:125%">Looking for the coolest new free apps on your Android phone? <br /> 
+Our app recommends free apps that you would like. <br /> Each time you download one, 25 cents is donated to your favorite charity. That’s right! You find the free apps you want, and support the causes you care about.<br /> <br /> <b><style="text-align:center">What are you waiting for?</b></style></div>
 
 </div>
+
+<!-- <div id="box">
+<p><div style="text-align:justify">Looking for the coolest new free apps on your Android phone? Our app recommends free apps that you would like. Each time you download one, 25 cents is donated to your favorite charity. That’s right! You find the free apps you want, and support the causes you care about. What are you waiting for?</p></div> -->
+
+  <br />
+
+<div style="float: left;"><a href="http://twitter.com/share" class="twitter-share-button" data-url="www.appsforaction.com" data-text="Check out this app!" data-count="horizontal" data-via="appsforaction">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="float: left;">        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+              <fb:like></fb:like></div>
+
+
+
+</html>
