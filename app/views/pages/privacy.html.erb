@@ -5,7 +5,7 @@ body
 {
 	    background-repeat: no-repeat;
 background-color:#FFFFFF;
-background-image: -webkit-gradient(linear, left top, left bottom, from(#40930F), to(#999999)) fixed; /* Saf4+, Chrome */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#40930F), to(#FFFFFF)) fixed; /* Saf4+, Chrome */
   background-image: -webkit-linear-gradient(top, #40930F, #FFFFFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
   background-image:    -moz-linear-gradient(top, #40930F, #FFFFFF); /* FF3.6 */
   background-image:     -ms-linear-gradient(top, #40930F, #FFFFFF); /* IE10 */
@@ -18,28 +18,27 @@ background-image: -webkit-gradient(linear, left top, left bottom, from(#40930F),
 <body>
 
 <center>
-<div style="float: center; clear: center; margin-right: 0px; margin-bottom: 10px">
+<div style="float: center; clear: center; margin-right: 0px; margin-bottom: 0px">
 
     <div id="home_logo"><%= link_to image_tag("Title_Big.png", size: "390x70"),  home_path %></div>
    
 </div>
 </center>
 
-<div id="outerDiv" style="position: relative; left:0px; border: 0px solid green; width: 900px; height: 1200px; float: left; clear: left; margin-bottom: 0em; margin-left: 0em">
+<div id="outerDiv" style="position: relative; left:0px; border: 2px solid green; width: auto; length: 2000px; float: left; clear: left; margin-bottom: 0em; margin-left: 0em; border-radius:10px; -moz-border-radius:10px;-moz-box-shadow: 5px 5px 2.5px #669900; /* Firefox 3.6 and earlier */
+box-shadow: 5px 5px 2.5px #669900;">
 
 <div id="semiTransparentDiv" style="position: absolute; background-color: white; filter:alpha(opacity=97);-moz-opacity:.97;opacity:.97; height: 100%; width: 100%; z-index: 1;-webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;"></div>
 
-<div id="contentDiv" style="position: relative; z-index: 2; padding: 10px; color: black; text-align:left; font-size:120%; font-family: georgia, serif; line-height:125%"><p style="font-size:125%;color:808080; text-align: justify;">
+
+<div id="contentDiv" style="position: relative; z-index: 2; padding: 10px; color: black; text-align:left; font-size:120%; font-family: Arial, Helvetica, sans-serif; line-height:125%"><p style="font-size:125%;color:808080; text-align: justify;">
 <h2 style="font-size: 200%; font-family: Arial, Helvetica, sans-serif; ">
 
-<h1 style="font-size:250%;font-weight:bold;color:#000000; text-decoration: underline; float: left; clear:right; line-height:25%">Privacy Policy</h1>
+<h1 style="font-size:150%;font-weight:bold;color:#40930F; text-decoration: underline; float: top; clear:right; line-height:50%; top:5px;">Privacy Policy</h1>
 
-<h3 style="float:left; clear:left; font-size:150%">Your privacy is of the upmost importance to us.</h3>
-<br />
-<br />
-<br />
+<h3 style="float:left; clear:left; font-size:100%">Your privacy is of the upmost importance to us.</h3>
 <br />
 <p style="float:left; clear:left;">At Apps for Action, we have a few fundamental principles:</p>
 
@@ -49,27 +48,29 @@ border-radius: 10px;"></div>
   <li>We don’t store personal information on our servers unless required for the ongoing operation of one of our services.</li>
 </ul>
 <p style="font-size:100%; float:left; clear:left;">Below is our privacy policy which incorporates these goals. If you have any questions, please <a style="color:#000080" href="mailto:info@appsforaction.com">contact the Apps for Action Team</a>. Apps for Action, LLC (hereafter “Apps for Action”) operates <a style="color:#000080" href="http://appsforaction.com">appsforaction.com</a>.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Website Visitors</h2>
-<p style="font-size:100%; float:left; clear:left;">Like most website operators, Apps for Action collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Apps for Action’s purpose in collecting non-personally-identifying information is to better understand how Apps for Action’s visitors use its website. From time to time, Apps for Action may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the website's usage.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Gathering of Personally-Identifying Information</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Website Visitors</h2>
+<p style="font-size:90%; float:left; clear:left;">Like most website operators, Apps for Action collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Apps for Action’s purpose in collecting non-personally-identifying information is to better understand how Apps for Action’s visitors use its website. From time to time, Apps for Action may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the website's usage.</p>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Gathering of Personally-Identifying Information</h2>
 <p style="font-size:100%; float:left; clear:left;">Apps for Action collects potentially personally-identifying information like Internet Protocol (IP) addresses for users. Apps for Action collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Apps for Action. Apps for Action does not disclose personally-identifying information other than as described below.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Aggregated Statistics</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Aggregated Statistics</h2>
 <p style="font-size:100%; float:left; clear:left;">Apps for Action may collect statistics about the behavior of visitors to its websites. For instance, Apps for Action may monitor the most popular causes to which our users donate. Apps for Action may display this information publicly or provide it to others. However, Apps for Action does not disclose personally-identifying information other than as described below.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Protection of Certain Personally-Identifying Information</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Protection of Certain Personally-Identifying Information</h2>
 <p style="font-size:100%; float:left; clear:left;">Apps for Action discloses potentially personally-identifying and personally-identifying information only to those of its employees, contractors and affiliated organizations that (i) need to know that information in order to process it on Apps for Action’s behalf or to provide services available at <a style="color:#000080" href="http://appsforaction.com">appsforaction.com</a>, and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and affiliated organizations may be located outside of your home country; by using <a style="color:#000080" href="http://appsforaction.com">appsforaction.com</a>, you consent to the transfer of such information to them. Apps for Action will not rent or sell potentially personally-identifying and personally-identifying information to anyone. Other than to its employees, contractors and affiliated organizations, as described above, Apps for Action discloses potentially personally-identifying and personally-identifying information only in response to a subpoena, court order or other governmental request, or when Apps for Action believes in good faith that disclosure is reasonably necessary to protect the property or rights of Apps for Action, third parties or the public at large. Apps for Action takes all measures reasonably necessary to protect against the unauthorized access, use, alteration, or destruction of potentially personally-identifying and personally-identifying information.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Cookies</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Cookies</h2>
 <p style="font-size:100%; float:left; clear:left;">A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns. As of 1 July 2011, Apps for Action does not use cookies. However, ads appearing on any of our websites may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Apps for Action and does not cover the use of cookies by any advertisers. Apps for Action visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using <a style="color:#000080" href="http://appsforaction.com">appsforaction.com</a>.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Business Transfers</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Business Transfers</h2>
 <p style="font-size:100%; float:left; clear:left;">If Apps for Action, or substantially all of its assets were acquired, or in the event that Apps for Action goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of Apps for Action may continue to use your personal information as set forth in this policy.</p>
-<h2 style="font-size:150%;line-height:50%; float:left; clear:left;">Privacy Policy Changes</h2>
+<h2 style="font-size:110%;line-height:50%; float:left; clear:left;">Privacy Policy Changes</h2>
 <p style="font-size:100%; float:left; clear:left;">Although most changes are likely to be minor, Apps for Action may change its Privacy Policy from time to time, and in Apps for Action’s sole discretion. Apps for Action encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
 <div id="note" style="float:left; clear:left;">
   Apps for Action sincerely thanks <a style="color:#000080" href="http://automattic.com/privacy/">http://automattic.com/privacy/</a> for releasing an open source privacy policy on which our privacy policy is based. Note: Our privacy policy is also available under a Creative Commons Sharealike license.
-</div>
+
 </style>
 
 </body>
-</html></p>
+</p>
+</div>
 
 </body>
 </html>
+</div>
