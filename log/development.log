@@ -13605,3 +13605,21 @@ Rendered layouts/_header.html.erb (0.0ms)
 Rendered layouts/_footer.html.erb (2.0ms)
 Rendered pages/home.html.erb within layouts/application (23.0ms)
 Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-14 05:04:12 -0400
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-14 05:04:21 -0400
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
