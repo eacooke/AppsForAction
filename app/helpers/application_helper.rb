@@ -25,4 +25,5 @@ module ApplicationHelper
     <script type="text/javascript">try{ clicky.init(66457842); }catch(err){}</script>'
   end
 
+ 
 end

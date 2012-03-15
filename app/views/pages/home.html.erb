@@ -1,10 +1,33 @@
+<head> 
+<script href="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<!-- ../../../public/javascripts/jquery.min.js -->
+<script href="https://raw.github.com/tobia/CrossSlide/master/jquery.cross-slide.min.js"></script>		
+<!-- 	../../../public/javascripts/jquery.cross-slide.min.js -->
+</head>
+
 <div id="main_left" class="span-8">
 <center>
 <span style="margin-top: -2em; float:left">
+<script>
+  $(function() {
+    $('#slideshow').crossSlide({
+      sleep: 2,
+      fade: 1
+    }, [
+      { <%= image_tag("Screenshot.png", :size=>"315x551")%> },
+      { <%= image_tag("Screenshot2.png", :size=>"315x551")%> },
+      { <%= image_tag("Screenshot3.png", :size=>"315x551")%> },
+      { <img src: '../../../public/images/screenshot.png' /> }
+    ])
+  });
+</script>	
+
+	
 <%= image_tag("Screenshot.png", :size=>"315x551")%>
 </span>
 </center>
 </div>
+
 <div id="main_right" class="span-11 last">
   <center>  
     <div style="float:top; margin-top: 0em; margin-right: 9em;" id="home_logo"><%= link_to image_tag("Apps_for_Action.png", :size=>"500x102"),  home_path %></div>
