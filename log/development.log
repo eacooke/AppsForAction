@@ -24548,3 +24548,21 @@ Rendered layouts/_header.html.erb (0.0ms)
 Rendered layouts/_footer.html.erb (1.0ms)
 Rendered pages/about.html.erb within layouts/application (22.0ms)
 Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2012-03-17 11:51:03 -0400
+  Processing by PagesController#privacy as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/privacy.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2012-03-17 11:51:35 -0400
+  Processing by PagesController#privacy as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/privacy.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
