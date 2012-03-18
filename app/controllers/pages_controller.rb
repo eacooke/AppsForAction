@@ -18,6 +18,9 @@ class PagesController < ApplicationController
   def faq
     @title = "FAQ"
   end
-  
+
+  def team
+    @title = "Meet the Team"
+  end  
 
 end
