@@ -25376,3 +25376,1070 @@ Rendered layouts/_header.html.erb (1.0ms)
 Rendered layouts/_footer.html.erb (1.0ms)
 Rendered pages/home.html.erb within layouts/application (17.0ms)
 Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-03-18 21:17:14 -0700
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/about.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2012-03-18 21:17:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-18 21:17:20 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-18 21:17:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-18 21:17:20 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-03-18 21:17:23 -0700
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/about.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2012-03-18 21:17:27 -0700
+  Processing by PagesController#privacy as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/privacy.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/terms" for 127.0.0.1 at 2012-03-18 21:17:30 -0700
+  Processing by PagesController#terms as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/terms.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2012-03-18 21:17:33 -0700
+  Processing by PagesController#team as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/team.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2012-03-18 21:20:39 -0700
+  Processing by PagesController#team as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/team.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:41:56 -0700
+  Processing by PagesController#home as HTML
+ERROR: compiling _app_views_pages_home_html_erb___916605620_34319064__820752569 RAISED C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_left" class="span-8">
+                  ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_left" class="span-8">
+                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tSTRING_BEG, expecting ')'
+<div id="main_left" class="span-8">
+                                  ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+<span style="margin-top: -20px; float:left">
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+<span style="margin-top: -20px; float:left">
+                                           ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+...    { <%= image_tag("Screenshot.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected tINTEGER, expecting ')'
+...g("Screenshot.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+...ppend= ( image_tag("Screenshot2.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:20: syntax error, unexpected tINTEGER, expecting ')'
+...("Screenshot2.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:21: syntax error, unexpected tCONSTANT, expecting ')'
+...ppend= ( image_tag("Screenshot3.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:21: syntax error, unexpected tINTEGER, expecting ')'
+...("Screenshot3.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:28: syntax error, unexpected tCONSTANT, expecting ')'
+...buffer.append= ( image_tag("Evo.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:28: syntax error, unexpected tINTEGER, expecting ')'
+...mage_tag("Evo.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                                ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                                        ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div style="float:top; margin-top: 0em; margin...
+                     ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tLABEL
+...v style="float:top; margin-top: 0em; margin-right: 9em;" id=...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: trailing `e' in number
+...tyle="float:top; margin-top: 0em; margin-right: 9em;" id="ho...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tLABEL
+... margin-top: 0em; margin-right: 9em;" id="home_logo">');@out...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: trailing `e' in number
+...rgin-top: 0em; margin-right: 9em;" id="home_logo">');@output...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...rgin-right: 9em;" id="home_logo">');@output_buffer.append= (...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tCONSTANT, expecting ')'
+...k_to image_tag("Apps_for_Action.png", :size=>"515x106"),  ho...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tINTEGER, expecting ')'
+...ps_for_Action.png", :size=>"515x106"),  home_path );@output_...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+<!-- <div id="outerDiv" style="position: relative; ...
+                      ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="outerDiv" style="position: relative; left:70px; border...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...le="position: relative; left:70px; border: 0px solid green; ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...n: relative; left:70px; border: 0px solid green; width: 500p...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...border: 0px solid green; width: 500px; height: 450px; float:...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...id green; width: 500px; height: 450px; float: right; clear: ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...h: 500px; height: 450px; float: right; clear: right; margin-...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...ht: 450px; float: right; clear: right; margin-bottom: 2em; m...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tLABEL
+...t; clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: trailing `e' in number
+...clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tLABEL
+...argin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: trailing `e' in number
+...in-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="outerDiv" style="position: relative; ...
+                 ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="outerDiv" style="position: relative; left:90px; border...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...le="position: relative; left:90px; border: 2px solid green; ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...n: relative; left:90px; border: 2px solid green; width: 515p...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...border: 2px solid green; width: 515px; height: 380px; float:...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...id green; width: 515px; height: 380px; float: right; clear: ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...h: 515px; height: 380px; float: right; clear: right; margin-...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...ht: 380px; float: right; clear: right; margin-bottom: 2em; m...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...t; clear: right; margin-bottom: 2em; margin-left: 2em; borde...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: trailing `e' in number
+...clear: right; margin-bottom: 2em; margin-left: 2em; border-r...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...argin-bottom: 2em; margin-left: 2em; border-radius:10px; -mo...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: trailing `e' in number
+...in-bottom: 2em; margin-left: 2em; border-radius:10px; -moz-b...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...argin-left: 2em; border-radius:10px; -moz-border-radius:10px...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...adius:10px; -moz-border-radius:10px;-moz-box-shadow: 5px 5px...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...er-radius:10px;-moz-box-shadow: 5px 5px 2.5px #77AA55; /* Fi...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:41: syntax error, unexpected tLABEL
+box-shadow: 5px 5px 2.5px #66AA44;">
+           ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="semiTransparentDiv" style="position: absolute; backgro...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:45: syntax error, unexpected '<'
+border-radius: 10px;"></div>
+                       ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...olest new free apps</b> on your Android phone? <br /> <br />...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tREGEXP_BEG, expecting keyword_do or '{' or '('
+...b> on your Android phone? <br /> <br /> Our app recommends f...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...id phone? <br /> <br /> Our app recommends free apps that yo...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<', expecting ')'
+...time you download a free app, <b>25 cents is donated</b> to ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ownload a free app, <b>25 cents is donated</b> to your favor...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...your favorite charity. <br /> <br /> That’s right! You fin...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...ee apps you want <i><b>and</b></i> support the causes you ca...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...causes you care about. <br /> <br /> <b style="position:rela...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...>What are you waiting for?</b></style>
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected '<'
+<!-- 	<div id=\'app561\' class...
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected '<'
+<!-- 	<div id=\'app561\' class=\'app...
+     	 ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected $undefined
+<!-- 	<div id=\'app561\' class=\'appbrain-ap...
+     	         ^
+Function body:           def _app_views_pages_home_html_erb___916605620_34319064__820752569(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "pages/home";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<head> 
+<script src="../../../public/javascripts/jquery.min.js"></script>
+<!-- ../../../public/javascripts/jquery.min.js -->
+<script href="https://raw.github.com/tobia/CrossSlide/master/jquery.cross-slide.min.js"></script>		
+<!-- 	../../../public/javascripts/jquery.cross-slide.min.js -->
+
+<meta property="og:image" content="');@output_buffer.append= ( image_tag ("fbicon.jpg") =>" />
+</head>
+
+<div id="main_left" class="span-8">
+<center>
+<span style="margin-top: -20px; float:left">
+<script>
+  $(function() {
+    $('#slideshow').crossSlide({
+      sleep: 2,
+      fade: 1
+    }, [
+      { <%= image_tag("Screenshot.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { ');@output_buffer.append= ( image_tag("Screenshot2.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { ');@output_buffer.append= ( image_tag("Screenshot3.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { <img src: \'../../../public/images/screenshot.png\' /> }
+    ])
+  });
+</script>	
+
+	
+');@output_buffer.append= ( image_tag("Evo.png", :size=>"315x551"));@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</span>
+</center>
+</div>
+
+<div id="main_right" class="span-11 last">
+  
+    <div style="float:top; margin-top: 0em; margin-right: 9em;" id="home_logo">');@output_buffer.append= ( link_to image_tag("Apps_for_Action.png", :size=>"515x106"),  home_path );@output_buffer.safe_concat('</div>
+
+<!-- This controls the style, font, and bacground color of the call-to-action text. -->
+<!-- <div id="outerDiv" style="position: relative; left:70px; border: 0px solid green; width: 500px; height: 450px; float: right; clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+
+<div id="outerDiv" style="position: relative; left:90px; border: 2px solid green; width: 515px; height: 380px; float: right; clear: right; margin-bottom: 2em; margin-left: 2em; border-radius:10px; -moz-border-radius:10px;-moz-box-shadow: 5px 5px 2.5px #77AA55; /* Firefox 3.6 and earlier */
+box-shadow: 5px 5px 2.5px #66AA44;">
+
+<div id="semiTransparentDiv" style="position: absolute; background-color: white; filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75; height: 100%; width: 100%; z-index: 1;-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;"></div>
+
+<div id="contentDiv" style="position: relative; z-index: 2; padding: 10px; color: black; text-align:left; font-size:120%; font-family: Arial, Helvetica, sans-serif; line-height:125%">Looking for the <b>coolest new free apps</b> on your Android phone? <br /> <br /> Our app recommends free apps that you would like. Each time you download a free app, <b>25 cents is donated</b> to your favorite charity. <br /> <br /> That’s right! You find the free apps you want <i><b>and</b></i> support the causes you care about. <br /> <br /> <b style="position:relative; left: 130px">What are you waiting for?</b></style>
+	
+	<br />
+	
+<!-- 	<div id=\'app561\' class=\'appbrain-app\'><a href=\'http://www.appbrain.com/app/google-maps/com.google.android.apps.maps\' style=\'font-size: 11px; color: #555; font-family: Arial, sans-serif;\'>Google Maps for Android on AppBrain</a></div><script type=\'text/javascript\' language=\'javascript\' src=\'http://www.appbrain.com/api/api.nocache.js\'></script> -->
+	
+	   <div style="position:relative; clear:left; margin-top: 5px; margin-right: 2em; left: 110px" id="Market">');@output_buffer.append= ( link_to image_tag("Play.png", :size=>"172x60"), 'http://www.appsforaction.com' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+<div style="position:relative; margin-top: -66px; left: 180px;" id="chart">');@output_buffer.append= ( link_to image_tag("chart.png", :size=>"60x60"), 'http://www.appsforaction.com' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('<br />
+<i style="position:absolute; left: -230px; top: 80px">Download our free app now in the Android Market</i>
+</div>
+</div>
+</div>
+</div>
+
+  <br />
+
+
+<div style="float: left;; margin-top: -20px;">        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+              <fb:like></fb:like></div>
+<div style="float: left;<!-- position:relative; left: 425px; top: -60px; -->"><a href="http://twitter.com/share" class="twitter-share-button" data-url="www.appsforaction.com" data-text="Check out this app!" data-count="horizontal" data-via="appsforaction">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+
+</html>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__942574303__process_action__815175388__callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered pages/home.html.erb within layouts/application (56.0ms)
+Completed   in 64ms
+
+ActionView::Template::Error (C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_left" class="span-8">
+                  ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_left" class="span-8">
+                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected tSTRING_BEG, expecting ')'
+<div id="main_left" class="span-8">
+                                  ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+<span style="margin-top: -20px; float:left">
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting ')'
+<span style="margin-top: -20px; float:left">
+                                           ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+...    { <%= image_tag("Screenshot.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected tINTEGER, expecting ')'
+...g("Screenshot.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+...ppend= ( image_tag("Screenshot2.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:20: syntax error, unexpected tINTEGER, expecting ')'
+...("Screenshot2.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:21: syntax error, unexpected tCONSTANT, expecting ')'
+...ppend= ( image_tag("Screenshot3.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:21: syntax error, unexpected tINTEGER, expecting ')'
+...("Screenshot3.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:28: syntax error, unexpected tCONSTANT, expecting ')'
+...buffer.append= ( image_tag("Evo.png", :size=>"315x551"));@ou...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:28: syntax error, unexpected tINTEGER, expecting ')'
+...mage_tag("Evo.png", :size=>"315x551"));@output_buffer.safe_c...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                                ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:33: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="main_right" class="span-11 last">
+                                        ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div style="float:top; margin-top: 0em; margin...
+                     ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tLABEL
+...v style="float:top; margin-top: 0em; margin-right: 9em;" id=...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: trailing `e' in number
+...tyle="float:top; margin-top: 0em; margin-right: 9em;" id="ho...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tLABEL
+... margin-top: 0em; margin-right: 9em;" id="home_logo">');@out...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: trailing `e' in number
+...rgin-top: 0em; margin-right: 9em;" id="home_logo">');@output...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...rgin-right: 9em;" id="home_logo">');@output_buffer.append= (...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tCONSTANT, expecting ')'
+...k_to image_tag("Apps_for_Action.png", :size=>"515x106"),  ho...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:35: syntax error, unexpected tINTEGER, expecting ')'
+...ps_for_Action.png", :size=>"515x106"),  home_path );@output_...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+<!-- <div id="outerDiv" style="position: relative; ...
+                      ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="outerDiv" style="position: relative; left:70px; border...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...le="position: relative; left:70px; border: 0px solid green; ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...n: relative; left:70px; border: 0px solid green; width: 500p...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...border: 0px solid green; width: 500px; height: 450px; float:...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...id green; width: 500px; height: 450px; float: right; clear: ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...h: 500px; height: 450px; float: right; clear: right; margin-...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected ':', expecting ')'
+...ht: 450px; float: right; clear: right; margin-bottom: 2em; m...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tLABEL
+...t; clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: trailing `e' in number
+...clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: syntax error, unexpected tLABEL
+...argin-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:38: trailing `e' in number
+...in-bottom: 2em; margin-left: 2em"> -->
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+<div id="outerDiv" style="position: relative; ...
+                 ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="outerDiv" style="position: relative; left:90px; border...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...le="position: relative; left:90px; border: 2px solid green; ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...n: relative; left:90px; border: 2px solid green; width: 515p...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...border: 2px solid green; width: 515px; height: 380px; float:...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...id green; width: 515px; height: 380px; float: right; clear: ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...h: 515px; height: 380px; float: right; clear: right; margin-...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected ':', expecting ')'
+...ht: 380px; float: right; clear: right; margin-bottom: 2em; m...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...t; clear: right; margin-bottom: 2em; margin-left: 2em; borde...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: trailing `e' in number
+...clear: right; margin-bottom: 2em; margin-left: 2em; border-r...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...argin-bottom: 2em; margin-left: 2em; border-radius:10px; -mo...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: trailing `e' in number
+...in-bottom: 2em; margin-left: 2em; border-radius:10px; -moz-b...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...argin-left: 2em; border-radius:10px; -moz-border-radius:10px...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...adius:10px; -moz-border-radius:10px;-moz-box-shadow: 5px 5px...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:40: syntax error, unexpected tLABEL
+...er-radius:10px;-moz-box-shadow: 5px 5px 2.5px #77AA55; /* Fi...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:41: syntax error, unexpected tLABEL
+box-shadow: 5px 5px 2.5px #66AA44;">
+           ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...v id="semiTransparentDiv" style="position: absolute; backgro...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:45: syntax error, unexpected '<'
+border-radius: 10px;"></div>
+                       ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...olest new free apps</b> on your Android phone? <br /> <br />...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tREGEXP_BEG, expecting keyword_do or '{' or '('
+...b> on your Android phone? <br /> <br /> Our app recommends f...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...id phone? <br /> <br /> Our app recommends free apps that yo...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<', expecting ')'
+...time you download a free app, <b>25 cents is donated</b> to ...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ownload a free app, <b>25 cents is donated</b> to your favor...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...your favorite charity. <br /> <br /> That’s right! You fin...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...ee apps you want <i><b>and</b></i> support the causes you ca...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...causes you care about. <br /> <br /> <b style="position:rela...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: unknown regexp option - b
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:47: syntax error, unexpected '<'
+...>What are you waiting for?</b></style>
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected '<'
+<!-- 	<div id=\'app561\' class...
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected '<'
+<!-- 	<div id=\'app561\' class=\'app...
+     	 ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:51: syntax error, unexpected $undefined
+<!-- 	<div id=\'app561\' class=\'appbrain-ap...
+     	         ^):
+    7: <meta property="og:image" content="<%= image_tag ("fbicon.jpg") =>" />
+    8: </head>
+    9: 
+    10: <div id="main_left" class="span-8">
+    11: <center>
+    12: <span style="margin-top: -20px; float:left">
+    13: <script>
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:42:51 -0700
+  Processing by PagesController#home as HTML
+ERROR: compiling _app_views_pages_home_html_erb___916605620_34495308__820752569 RAISED C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:8: unknown regexp options - had
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected '<'
+<div id="main_left" class="span-8">
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected keyword_class, expecting ')'
+<div id="main_left" class="span-8">
+                         ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:11: syntax error, unexpected '<'
+<center>
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:13: syntax error, unexpected '<'
+<script>
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:15: syntax error, unexpected $undefined
+    $('#slideshow').crossSlide({
+     ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:15: syntax error, unexpected ')', expecting '}'
+    $('#slideshow').crossSlide({
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected '<', expecting '}'
+      { <%= image_tag("Screenshot.png"...
+         ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected ')', expecting '}'
+...eenshot.png", :size=>"315x551"));@output_buffer.safe_concat(...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:71: syntax error, unexpected keyword_ensure, expecting '}'
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:73: syntax error, unexpected keyword_end, expecting '}'
+Function body:           def _app_views_pages_home_html_erb___916605620_34495308__820752569(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "pages/home";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<head> 
+<script src="../../../public/javascripts/jquery.min.js"></script>
+<!-- ../../../public/javascripts/jquery.min.js -->
+<script href="https://raw.github.com/tobia/CrossSlide/master/jquery.cross-slide.min.js"></script>		
+<!-- 	../../../public/javascripts/jquery.cross-slide.min.js -->
+
+<meta property="og:image" content=');@output_buffer.append= ( image_tag("fbicon.jpg") => />
+</head>
+
+<div id="main_left" class="span-8">
+<center>
+<span style="margin-top: -20px; float:left">
+<script>
+  $(function() {
+    $('#slideshow').crossSlide({
+      sleep: 2,
+      fade: 1
+    }, [
+      { <%= image_tag("Screenshot.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { ');@output_buffer.append= ( image_tag("Screenshot2.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { ');@output_buffer.append= ( image_tag("Screenshot3.png", :size=>"315x551"));@output_buffer.safe_concat(' },
+      { <img src: \'../../../public/images/screenshot.png\' /> }
+    ])
+  });
+</script>	
+
+	
+');@output_buffer.append= ( image_tag("Evo.png", :size=>"315x551"));@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</span>
+</center>
+</div>
+
+<div id="main_right" class="span-11 last">
+  
+    <div style="float:top; margin-top: 0em; margin-right: 9em;" id="home_logo">');@output_buffer.append= ( link_to image_tag("Apps_for_Action.png", :size=>"515x106"),  home_path );@output_buffer.safe_concat('</div>
+
+<!-- This controls the style, font, and bacground color of the call-to-action text. -->
+<!-- <div id="outerDiv" style="position: relative; left:70px; border: 0px solid green; width: 500px; height: 450px; float: right; clear: right; margin-bottom: 2em; margin-left: 2em"> -->
+
+<div id="outerDiv" style="position: relative; left:90px; border: 2px solid green; width: 515px; height: 380px; float: right; clear: right; margin-bottom: 2em; margin-left: 2em; border-radius:10px; -moz-border-radius:10px;-moz-box-shadow: 5px 5px 2.5px #77AA55; /* Firefox 3.6 and earlier */
+box-shadow: 5px 5px 2.5px #66AA44;">
+
+<div id="semiTransparentDiv" style="position: absolute; background-color: white; filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75; height: 100%; width: 100%; z-index: 1;-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;"></div>
+
+<div id="contentDiv" style="position: relative; z-index: 2; padding: 10px; color: black; text-align:left; font-size:120%; font-family: Arial, Helvetica, sans-serif; line-height:125%">Looking for the <b>coolest new free apps</b> on your Android phone? <br /> <br /> Our app recommends free apps that you would like. Each time you download a free app, <b>25 cents is donated</b> to your favorite charity. <br /> <br /> That’s right! You find the free apps you want <i><b>and</b></i> support the causes you care about. <br /> <br /> <b style="position:relative; left: 130px">What are you waiting for?</b></style>
+	
+	<br />
+	
+<!-- 	<div id=\'app561\' class=\'appbrain-app\'><a href=\'http://www.appbrain.com/app/google-maps/com.google.android.apps.maps\' style=\'font-size: 11px; color: #555; font-family: Arial, sans-serif;\'>Google Maps for Android on AppBrain</a></div><script type=\'text/javascript\' language=\'javascript\' src=\'http://www.appbrain.com/api/api.nocache.js\'></script> -->
+	
+	   <div style="position:relative; clear:left; margin-top: 5px; margin-right: 2em; left: 110px" id="Market">');@output_buffer.append= ( link_to image_tag("Play.png", :size=>"172x60"), 'http://www.appsforaction.com' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+<div style="position:relative; margin-top: -66px; left: 180px;" id="chart">');@output_buffer.append= ( link_to image_tag("chart.png", :size=>"60x60"), 'http://www.appsforaction.com' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('<br />
+<i style="position:absolute; left: -230px; top: 80px">Download our free app now in the Android Market</i>
+</div>
+</div>
+</div>
+</div>
+
+  <br />
+
+
+<div style="float: left;; margin-top: -20px;">        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+              <fb:like></fb:like></div>
+<div style="float: left;<!-- position:relative; left: 425px; top: -60px; -->"><a href="http://twitter.com/share" class="twitter-share-button" data-url="www.appsforaction.com" data-text="Check out this app!" data-count="horizontal" data-via="appsforaction">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+
+</html>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `module_eval'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:255:in `compile'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:134:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:54:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/template.rb:127:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_view/render/rendering.rb:26:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:115:in `_render_template'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:93:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:150:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:435:in `_run__942574303__process_action__815175388__callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:93:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/notifications.rb:52:in `instrument'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/base.rb:119:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/abstract_controller/rendering.rb:41:in `process'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal.rb:138:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_controller/metal.rb:178:in `block in action'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/routing/route_set.rb:492:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:32:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:12:in `cache'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/query_cache.rb:31:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/rack/logger.rb:13:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/activesupport-3.0.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/application.rb:168:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/application.rb:77:in `method_missing'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/railties-3.0.5/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/RailsInstaller/Ruby1.9.2/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered pages/home.html.erb within layouts/application (19.0ms)
+Completed   in 26ms
+
+ActionView::Template::Error (C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:8: unknown regexp options - had
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected '<'
+<div id="main_left" class="span-8">
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:10: syntax error, unexpected keyword_class, expecting ')'
+<div id="main_left" class="span-8">
+                         ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:11: syntax error, unexpected '<'
+<center>
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:13: syntax error, unexpected '<'
+<script>
+ ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:15: syntax error, unexpected $undefined
+    $('#slideshow').crossSlide({
+     ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:15: syntax error, unexpected ')', expecting '}'
+    $('#slideshow').crossSlide({
+                   ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected '<', expecting '}'
+      { <%= image_tag("Screenshot.png"...
+         ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:19: syntax error, unexpected ')', expecting '}'
+...eenshot.png", :size=>"315x551"));@output_buffer.safe_concat(...
+...                               ^
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:71: syntax error, unexpected keyword_ensure, expecting '}'
+C:/Users/Eugene/WebDevelopment/AppsForAction/app/views/pages/home.html.erb:73: syntax error, unexpected keyword_end, expecting '}'):
+    5: <!-- 	../../../public/javascripts/jquery.cross-slide.min.js -->
+    6: 
+    7: <meta property="og:image" content=<%= image_tag("fbicon.jpg") => />
+    8: </head>
+    9: 
+    10: <div id="main_left" class="span-8">
+    11: <center>
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:43:06 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:43:06 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:43:06 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:43:33 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:43:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:43:33 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:44:25 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:44:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:44:25 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:11 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:45:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:11 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:21 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:45:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:21 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:39 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:45:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:39 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:51 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:45:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:51 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2012-03-19 10:45:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:58 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/javascripts/jquery.min.js" for 127.0.0.1 at 2012-03-19 10:45:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-19 10:45:58 -0700
+  Processing by PagesController#home as 
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
