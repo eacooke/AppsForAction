@@ -26581,3 +26581,12 @@ Rendered layouts/_header.html.erb (0.0ms)
 Rendered layouts/_footer.html.erb (15.6ms)
 Rendered pages/home.html.erb within layouts/application (62.4ms)
 Completed 200 OK in 109ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-21 23:14:37 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.0ms)
+Rendered layouts/_header.html.erb (15.6ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (187.2ms)
+Completed 200 OK in 234ms (Views: 234.0ms | ActiveRecord: 0.0ms)
